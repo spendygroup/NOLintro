@@ -1,18 +1,188 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novus Ordo Liberum - Join the Movement</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-# Other files and folders
-.settings/
+    header {
+      background-color: #111;
+      color: #FFD700;
+      text-align: center;
+      padding: 30px;
+    }
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+    header h1 {
+      font-size: 3rem;
+    }
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+    section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #111;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #FFD700;
+      color: #111;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .button:hover {
+      background-color: #ffcc00;
+    }
+
+    .content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .content ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .content li {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    form label {
+      font-size: 1.1rem;
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #111;
+      color: #FFD700;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #FFD700;
+      color: #111;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Novus Ordo Liberum</h1>
+    <p>Answer the Call - Join the Movement</p>
+  </header>
+
+  <section>
+    <div class="content">
+      <h2>Introduction to Novus Ordo Liberum</h2>
+      <p>Novus Ordo Liberum is not just a movement; it is a calling. A calling for the chosen to step into their power and contribute to the global awakening of humanity. We are a collective, a network of like-minded individuals who seek truth, healing, and empowerment. Together, we will break free from the constraints of the matrix and build a new world based on knowledge, community, and holistic health.</p>
+
+      <p>The book you are about to receive is just the beginning, serving as an introduction to the teachings that will empower you to walk the path of self-awakening. It is your first step into a worldwide organization that values spreading knowledge, community outreach, and the betterment of humanity. Through the teachings and practices contained within these pages, you will embark on a journey that transcends the material world and taps into the profound depths of the spiritual realm.</p>
+
+      <h3>Our Purpose and Values</h3>
+      <ul>
+        <li>Spreading knowledge and empowering individuals</li>
+        <li>Fostering community through group meetings and outreach</li>
+        <li>Promoting holistic health and well-being</li>
+        <li>Supporting global initiatives for sustainability and charity</li>
+      </ul>
+
+      <p>We are a collective of thousands, already deep in our journey, working together to create a world that reflects the higher consciousness we seek. The purchase of this book grants you access to the first two months of membership, allowing you to join our growing community and participate in our initiatives.</p>
+      
+      <a href="[Link to Book Purchase]" class="button">Get the Book & Join the Movement</a>
+    </div>
+
+    <div class="content">
+      <h2>Become a Member</h2>
+      <p>As a member of Novus Ordo Liberum, you will be joining a movement that is dedicated to spreading truth, healing, and empowerment. Our mission is to grow our community and expand our reach, all while maintaining a focus on holistic well-being, sustainability, and outreach efforts.</p>
+
+      <h3>Monthly & Yearly Contributions</h3>
+      <p>All contributions will go directly toward:</p>
+      <ul>
+        <li>Community outreach programs</li>
+        <li>Organizing group meetings and global trips</li>
+        <li>Supporting land and food initiatives</li>
+        <li>Charity and humanitarian efforts</li>
+      </ul>
+
+      <p>The purchase of the book includes the first two months of membership free, along with a discounted rate for yearly contributions.</p>
+
+      <h3>Apply to Join the Movement</h3>
+      <p>If you feel called to join and take up a role within the organization, submit your application below. You can be nominated by a current member or apply directly. Let us know what role you feel most aligned with, and how you plan to contribute to our mission.</p>
+    </div>
+
+    <form action="https://formspree.io/f/your-email" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="role">Role You Are Interested In:</label>
+      <select id="role" name="role">
+        <option value="knowledge-keeper">Knowledge Keeper</option>
+        <option value="healing-practitioner">Healing Practitioner</option>
+        <option value="community-leader">Community Outreach Leader</option>
+        <option value="spiritual-guide">Spiritual Guide</option>
+        <option value="admin">Admin</option>
+        <!-- Add more roles here -->
+      </select>
+
+      <label for="experience">Why Do You Feel Called to Join Novus Ordo Liberum?</label>
+      <textarea id="experience" name="experience" required></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Novus Ordo Liberum. All rights reserved.</p>
+  </footer>
+</body>
+</html>
